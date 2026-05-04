@@ -1,2 +1,5 @@
 naniwa
 .vscode/*
+analysis.txt
+gmon.out
+test.json

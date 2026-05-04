@@ -82,28 +82,28 @@ constexpr int PIECE_POSITION_VALUES[PIECE_TYPE_NB][GRID_NB] = {
         0,  0,  0, 11, 15, 11,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
     },
     { // ADVISOR
-        0,  0,  0, 50,  0, 50,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-        0,  0,  0,  0, 58,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-        0,  0,  0, 50,  0, 50,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0, 20,  0, 20,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0, 23,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0, 20,  0, 20,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-        0,  0,  0, 50,  0, 50,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-        0,  0,  0,  0, 58,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-        0,  0,  0, 50,  0, 50,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0, 20,  0, 20,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0,  0, 23,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0,  0, 20,  0, 20,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
     },
     { // BISHOP
-        0,  0, 50,  0,  0,  0, 50,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0, 20,  0,  0,  0, 20,  0,  0,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-       46,  0,  0,  0, 56,  0,  0,  0, 46,  0,  0,  0,  0,  0,  0,  0,
+       18,  0,  0,  0, 23,  0,  0,  0, 18,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-        0,  0, 50,  0,  0,  0, 50,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-        0,  0, 50,  0,  0,  0, 50,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0, 20,  0,  0,  0, 20,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0, 20,  0,  0,  0, 20,  0,  0,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-       46,  0,  0,  0, 56,  0,  0,  0, 46,  0,  0,  0,  0,  0,  0,  0,
+       18,  0,  0,  0, 23,  0,  0,  0, 18,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-        0,  0, 50,  0,  0,  0, 50,  0,  0,  0,  0,  0,  0,  0,  0,  0,
+        0,  0, 20,  0,  0,  0, 20,  0,  0,  0,  0,  0,  0,  0,  0,  0,
     },
     { // KNIGHT
        88, 85, 90, 88, 90, 88, 90, 85, 88,  0,  0,  0,  0,  0,  0,  0,
@@ -145,13 +145,13 @@ constexpr int PIECE_POSITION_VALUES[PIECE_TYPE_NB][GRID_NB] = {
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
         0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,  0,
-       24,  0, 24,  0, 30,  0, 24,  0, 24,  0,  0,  0,  0,  0,  0,  0,
-       24,  0, 30,  0, 36,  0, 30,  0, 24,  0,  0,  0,  0,  0,  0,  0,
-       30, 36, 40, 50, 54, 50, 40, 36, 30,  0,  0,  0,  0,  0,  0,  0,
-       40, 48, 54, 58, 60, 58, 54, 48, 40,  0,  0,  0,  0,  0,  0,  0,
-       40, 50, 64, 74, 74, 74, 64, 50, 40,  0,  0,  0,  0,  0,  0,  0,
-       40, 50, 68, 84, 88, 84, 68, 50, 40,  0,  0,  0,  0,  0,  0,  0,
-       20, 20, 20, 24, 26, 24, 20, 20, 20,  0,  0,  0,  0,  0,  0,  0,
+        7,  0,  7,  0, 15,  0,  7,  0,  7,  0,  0,  0,  0,  0,  0,  0,
+        7,  0, 13,  0, 16,  0, 13,  0,  7,  0,  0,  0,  0,  0,  0,  0,
+       14, 18, 20, 27, 29, 27, 20, 18, 14,  0,  0,  0,  0,  0,  0,  0,
+       19, 23, 27, 29, 30, 29, 27, 23, 19,  0,  0,  0,  0,  0,  0,  0,
+       19, 24, 32, 37, 37, 37, 32, 24, 19,  0,  0,  0,  0,  0,  0,  0,
+       19, 24, 34, 42, 44, 42, 34, 24, 19,  0,  0,  0,  0,  0,  0,  0,
+        9,  9,  9, 11, 13, 11,  9,  9,  9,  0,  0,  0,  0,  0,  0,  0,
     },
 };
 
@@ -391,7 +391,8 @@ struct Position {
         std::vector<Move> legal_moves;
         for (const Move& move : generate_pseudo_legal_moves()) {
             make_move(move);
-            if (!is_in_check(opponent(player)) && repetition_status() == NO_REP) {
+            if (!is_in_check(opponent(player)) &&
+                repetition_status() == NO_REP) {
                 legal_moves.push_back(move);
             }
             undo_move();
@@ -483,18 +484,17 @@ struct Position {
         if (history.size() < 4) return NO_REP;
 
         int cnt = 1;
-        bool perp_check = true, opp_perp_check = true, self = false;
+        bool perp_check = false, opp_perp_check = false, self = false;
         for (int i = history.size() - 1; i >= 0; --i) {
-            if (history[i].captured_piece != EMPTY)
-                return NO_REP;
+            if (history[i].captured_piece != EMPTY) return NO_REP;
             if (self) {
-                perp_check &= history[i].checked;
+                opp_perp_check |= history[i].checked;
                 if (history[i].zobrist == zobrist) {
                     cnt++;
                     if (cnt >= n) {
                         if (perp_check && opp_perp_check) {
                             return DRAW;
-                        } else if (perp_check) {
+                        } else if (opp_perp_check) {
                             return LOSS;
                         } else {
                             return NO_REP;
@@ -502,7 +502,7 @@ struct Position {
                     }
                 }
             } else {
-                opp_perp_check &= history[i].checked;
+                perp_check |= history[i].checked;
             }
             self = !self;
         }
@@ -668,7 +668,8 @@ struct Position {
     }
 
     void null_move() {
-        history.emplace_back(Move(0), EMPTY, ply_since_capture, zobrist, is_in_check(player));
+        history.emplace_back(Move(0), EMPTY, ply_since_capture, zobrist,
+                             is_in_check(player));
         ply_since_capture++;
         change_player();
     }
@@ -789,7 +790,7 @@ struct Position {
     std::array<int, COLOR_NB> values{};
 };
 
-int perft(Position &pos, int depth) {
+int perft(Position& pos, int depth) {
     if (depth == 0) {
         return 1;
     }
